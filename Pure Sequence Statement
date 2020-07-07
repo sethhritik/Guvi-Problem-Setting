@@ -1,0 +1,57 @@
+STATEMENT:
+
+Chef went to his friend John’s house and saw John and his friends playing with cards. Chef asked John about the game they were playing. John told Chef that they are playing game of Pure Sequence with cards.
+A Pure Sequence of 3 cards is a sequence in which cards with same color and adjacent numbers are present. So, the sequence with cards A, 2 and 3 is the biggest Pure Sequence and the sequence with cards 2, 3 and 4 is the smallest Pure Sequence.
+Chef also joined the game. Now help the Chef in finding whether he WON or LOST the game among all the N friends.
+Note: Pack of cards only contains 13 common cards of red and black color both.
+
+INPUT FORMAT:
+
+•	The first line of input contains the number of test cases T.
+•	The next T lines follows:
+1.	The first line of each test case contains N defining the number of friends in the game.
+2.	The next N-1 lines contains 4 space separated inputs- 3 cards of each friend and color of the cards.
+3.	The last line i.e. Nth line contains Chef’s sequence
+•	The input can contain any card, not necessary it will always have a sequence and it is guaranteed that one will have a pure sequence.
+
+OUTPUT FORMAT:
+
+Display WON, if Chef wins the game else LOST for each test case. In case of tie with Chef, the one with color RED wins.
+
+CONSTRAINTS:
+
+•	1<=T<=500
+•	2<=N<=10000
+•	‘A’ <= A(i) <= ‘K’
+
+
+
+SAMPLE INPUT
+
+2
+3
+2  4  5  R
+Q  J  K  B
+A  K  Q  B
+4
+8  9  10  B
+A  2  3  R
+Q  J  K  R
+A  2  3  B
+
+
+SAMPLE OUTPUT
+
+WON
+LOST
+
+
+
+SAMPLE EXPLANATION
+
+•	In the 1st test case, Chef has pure sequence A K Q of black color which is the biggest among all.
+•	In the 2nd test case, Chef has sequence A 2 3 of black color but one of his friend has A 2 3 of red color, so Chef lost the game.
+
+
+
+
