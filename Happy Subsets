@@ -1,17 +1,17 @@
-###Statement
+Statement
 
-Chef is new to programming. One day while he was playing with an Array **A** of **N** integers, he found a **happy subset**. A subset of an array A is said to be happy if it has exactly **L** elements and the absolute difference between **Maximum and Minimum** number of the subset is **at most K**.
+Chef is new to programming. One day while he was playing with an Array A of N integers, he found a happy subset. A subset of an array A is said to be happy if it has exactly L elements and the absolute difference between Maximum and Minimum number of the subset is at most K.
 
-###Input Format
+Input Format
 
-The first line contains integers **N, L and K.**
+The first line contains integers N, L and K.
 The next line has N space separated integers.
 
-###Output Format
+Output Format
 
-Print the number of happy subset possible using the given Array. As the answer could be large, print it **Modulo 10^9 + 7**.
+Print the number of happy subset possible using the given Array. As the answer could be large, print it Modulo 10^9 + 7.
 
-###Constraints
+Constraints
 
 1 <= N <= 5*10^5
 
@@ -20,19 +20,19 @@ Print the number of happy subset possible using the given Array. As the answer c
 1 <= A[i], X <= 10^9
 
 
-**Note** that it may be possible that the maximum and minimum element of a subset may be equal to each other. 2 subsets are considered different if they differ in atleast one index picked from the array A.
+Note - that it may be possible that the maximum and minimum element of a subset may be equal to each other. 2 subsets are considered different if they differ in atleast one index picked from the array A.
 
-###Sample Input
+Sample Input
 
 5 3 5
 
 1 2 3 4 5
 
-###Sample Output
+Sample Output
 
 10
 
-###Explanation
+Explanation
 
-One of the ways to pick a happy subset is :**[5, 3, 1]** . For this array, each happy subset of size 3 is a valid pick.
+One of the ways to pick a happy subset is : [5, 3, 1] . For this array, each happy subset of size 3 is a valid pick.
 
